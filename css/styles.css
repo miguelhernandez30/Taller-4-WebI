@@ -1,0 +1,71 @@
+ body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    position: relative;
+    min-height: 100vh;
+} 
+a {
+    text-decoration: none;
+}
+
+
+.divIzquierdo {
+    width: 50%;
+    justify-content: left;
+
+}
+
+.divDerecho {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    gap: 10px;
+
+}
+
+.TituloDePaises {
+    background-color: #9fd133;
+    color: white;
+    padding: 19px;
+    display: flex;
+    width: 202px;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.imagenesDePaises {
+    height: 210px;
+    width: 240px;
+
+}
+
+.buttonBuy {
+    background-color: #9fd133;
+    color: #fff;
+    border: none;
+    width: 202px;
+    padding: 19px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+.BarraIzquierdo{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.BarraCentro{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.BarraDerecha{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
+}
